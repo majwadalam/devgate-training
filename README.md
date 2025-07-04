@@ -235,7 +235,7 @@
 
 1. **AI-Powered Research Assistant** - RAG + Agents + Web Search
 2. **Automated Content Pipeline** - n8n + LLMs + Local Deployment
-3. **Multimodal AI Application** - Text + Vision + Conversation Memory
+3. **Multimodal AI Application** - Text + Speech + Conversation Memory
 
 ### **Evaluation Criteria:**
 
@@ -247,9 +247,7 @@
 ### **Required Tools & Setup:**
 
 - Python 3.9+, Git, VS Code
-- OpenAI API key
+- OpenAI / Gemini API key
 - Google Colab account (backup for local issues)
 - Discord/Slack for collaboration
 - GitHub for project sharing
-
-This roadmap ensures hands-on learning while building progressively complex applications that demonstrate real-world AI development skills.
