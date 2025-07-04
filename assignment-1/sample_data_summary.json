@@ -1,0 +1,109 @@
+{
+  "file_info": {
+    "file_name": "sample_data.csv",
+    "file_path": "sample_data.csv",
+    "processed_at": "2025-07-04T16:14:00.843704"
+  },
+  "basic_statistics": {
+    "total_rows": 15,
+    "total_columns": 7,
+    "column_names": [
+      "date",
+      "product",
+      "category",
+      "price",
+      "quantity",
+      "customer_id",
+      "region"
+    ],
+    "numeric_columns": {
+      "price": {
+        "mean": 202.86,
+        "sum": 3042.85,
+        "min": 12.99,
+        "max": 999.99
+      },
+      "quantity": {
+        "mean": 2.07,
+        "sum": 31,
+        "min": 1,
+        "max": 5
+      }
+    }
+  },
+  "sales_analysis": {
+    "revenue_analysis": {
+      "total_revenue": 5129.69,
+      "average_order_value": 341.98,
+      "highest_sale": 1999.98,
+      "lowest_sale": 14.99
+    },
+    "category_analysis": {
+      "unique_categories": 3,
+      "category_distribution": {
+        "Electronics": 8,
+        "Education": 5,
+        "Home": 2
+      },
+      "revenue_by_category": {
+        "Education": 294.88,
+        "Electronics": 4739.84,
+        "Home": 94.97
+      }
+    },
+    "customer_analysis": {
+      "unique_customers": 8,
+      "average_orders_per_customer": 1.88,
+      "repeat_customers": 4
+    },
+    "date_analysis": {
+      "date_range": {
+        "start": "2024-01-01",
+        "end": "2024-01-15"
+      },
+      "total_days": 15
+    },
+    "regional_analysis": {
+      "regions": {
+        "North": 5,
+        "South": 4,
+        "West": 3,
+        "East": 2,
+        "North ": 1
+      },
+      "revenue_by_region": {
+        "East": 789.98,
+        "North": 2879.9,
+        "North ": 14.99,
+        "South": 284.9,
+        "West": 1159.92
+      }
+    }
+  },
+  "data_quality": {
+    "missing_values": {
+      "total": 0,
+      "by_column": {
+        "date": 0,
+        "product": 0,
+        "category": 0,
+        "price": 0,
+        "quantity": 0,
+        "customer_id": 0,
+        "region": 0,
+        "revenue": 0
+      }
+    },
+    "duplicate_rows": 0,
+    "data_types": {
+      "date": "datetime64[ns]",
+      "product": "object",
+      "category": "object",
+      "price": "float64",
+      "quantity": "int64",
+      "customer_id": "object",
+      "region": "object",
+      "revenue": "float64"
+    }
+  }
+}
