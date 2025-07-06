@@ -1,0 +1,80 @@
+[
+  {
+    "id": "sentiment_1",
+    "task": "Classify the sentiment of this text: 'I love this product, it's amazing!'",
+    "expected": "positive",
+    "type": "classification",
+    "examples": [
+      {"input": "I hate this movie", "output": "negative"},
+      {"input": "This is great", "output": "positive"},
+      {"input": "I'm neutral about this", "output": "neutral"}
+    ]
+  },
+  {
+    "id": "sentiment_2",
+    "task": "Classify the sentiment of this text: 'This is the worst experience ever.'",
+    "expected": "negative",
+    "type": "classification",
+    "examples": [
+      {"input": "I hate this movie", "output": "negative"},
+      {"input": "This is great", "output": "positive"},
+      {"input": "I'm neutral about this", "output": "neutral"}
+    ]
+  },
+  {
+    "id": "math_1",
+    "task": "If a train travels 120 km in 2 hours, what is its speed in km/h?",
+    "expected": "60 km/h",
+    "type": "math",
+    "examples": [
+      {"input": "A car travels 100 km in 2 hours. Speed?", "output": "50 km/h"},
+      {"input": "A plane flies 800 km in 4 hours. Speed?", "output": "200 km/h"}
+    ]
+  },
+  {
+    "id": "math_2",
+    "task": "What is 15% of 200?",
+    "expected": "30",
+    "type": "math",
+    "examples": [
+      {"input": "What is 10% of 100?", "output": "10"},
+      {"input": "What is 20% of 50?", "output": "10"}
+    ]
+  },
+  {
+    "id": "creative_1",
+    "task": "Write a short story about a robot learning to paint",
+    "expected": "creative_narrative",
+    "type": "creative",
+    "examples": []
+  },
+  {
+    "id": "code_1",
+    "task": "Write a Python function to calculate fibonacci numbers",
+    "expected": "python_code",
+    "type": "code",
+    "examples": [
+      {"input": "Write a function to add two numbers", "output": "def add(a, b): return a + b"},
+      {"input": "Write a function to check if a number is even", "output": "def is_even(n): return n % 2 == 0"}
+    ]
+  },
+  {
+    "id": "translation_1",
+    "task": "Translate 'Hello, how are you?' to Spanish",
+    "expected": "Hola, ¿cómo estás?",
+    "type": "translation",
+    "examples": [
+      {"input": "Translate 'Good morning' to Spanish", "output": "Buenos días"},
+      {"input": "Translate 'Thank you' to Spanish", "output": "Gracias"}
+    ]
+  },
+  {
+    "id": "summarization_1",
+    "task": "Summarize this text: 'The quick brown fox jumps over the lazy dog. This pangram contains every letter of the alphabet at least once.'",
+    "expected": "summary",
+    "type": "summarization",
+    "examples": [
+      {"input": "Summarize: 'Python is a programming language. It is easy to learn.'", "output": "Python is an easy-to-learn programming language."}
+    ]
+  }
+] 

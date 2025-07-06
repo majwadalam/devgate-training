@@ -1,0 +1,20 @@
+# Assignment 2: Prompt Engineering Playground - Requirements
+# OpenAI API and prompt engineering dependencies
+
+openai
+python-dotenv
+requests
+
+# Data processing and analysis
+pandas
+numpy
+
+# Optional: For enhanced functionality
+# streamlit0
+# flask
+# matplotlib
+# seaborn
+
+# Development dependencies
+# pytest
+# black
