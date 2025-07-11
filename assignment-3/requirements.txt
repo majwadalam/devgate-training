@@ -1,0 +1,13 @@
+# Assignment 3: Building Your First AI Application - Requirements
+# Simple chatbot and conversation management dependencies
+
+openai
+python-dotenv
+
+# Optional: For enhanced functionality
+# colorama  # For colored terminal output
+# rich      # For beautiful terminal formatting
+
+# Development dependencies
+# pytest
+# black 

@@ -62,7 +62,7 @@ class PromptEngineer:
         
         # Cost per 1K tokens (gpt-4o-mini)
         self.cost_per_1k_input = 0.0015
-        self.cost_per_1k_output = 0.002
+        self.cost_per_1k_output = 0.006
         
         print(f"✅ PromptEngineer initialized with API key: {openai.api_key[:8]}...")
     
@@ -159,7 +159,7 @@ class PromptEngineer:
                 response = openai.chat.completions.create(
                     model=model,
                     messages=messages,
-                    max_tokens=500,
+                    max_tokens=1000,
                     temperature=0.7
                 )
                 

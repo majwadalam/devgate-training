@@ -11,7 +11,6 @@ import os
 from datetime import datetime
 from typing import Dict, Any, List
 
-
 class DataProcessor:
     """A simple data processor that reads CSV files and generates JSON summaries."""
     
