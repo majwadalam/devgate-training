@@ -1,0 +1,16 @@
+# Assignment 4: Simple RAG Agent - Requirements
+# RAG system and embeddings dependencies
+
+openai
+python-dotenv
+numpy
+
+# Optional: For enhanced functionality
+# faiss-cpu  # For better vector search
+# chromadb   # Alternative vector database
+# streamlit  # For web interface
+# PyPDF2     # For PDF document loading
+
+# Development dependencies
+# pytest
+# black 
