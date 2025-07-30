@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "problem": "Three friends - Alice, Bob, and Charlie - have different pets (cat, dog, bird) and live in different colored houses (red, blue, green). Alice doesn't have a cat. The person with the bird lives in the blue house. Bob lives in the red house. Who has which pet and lives where?",
+    "difficulty": "medium",
+    "type": "deduction",
+    "clues": [
+      "Alice doesn't have a cat",
+      "The person with the bird lives in the blue house",
+      "Bob lives in the red house"
+    ]
+  },
+  {
+    "id": 2,
+    "problem": "A farmer has chickens and rabbits. In total, there are 20 heads and 56 legs. How many chickens and rabbits are there?",
+    "difficulty": "medium",
+    "type": "system_equations",
+    "constraints": [
+      "Total heads = 20",
+      "Total legs = 56",
+      "Chickens have 1 head and 2 legs",
+      "Rabbits have 1 head and 4 legs"
+    ]
+  },
+  {
+    "id": 3,
+    "problem": "You have 3 boxes. One contains only apples, one contains only oranges, and one contains both. All boxes are labeled incorrectly. You can pick one fruit from one box. How can you correctly label all boxes?",
+    "difficulty": "hard",
+    "type": "logical_deduction",
+    "key_insight": "Pick from the box labeled 'both' - since labels are wrong, it contains only one type"
+  },
+  {
+    "id": 4,
+    "problem": "If all roses are flowers, and some flowers are red, can we conclude that some roses are red?",
+    "difficulty": "easy",
+    "type": "syllogism",
+    "answer": "No - we cannot make this conclusion from the given information"
+  }
+] 

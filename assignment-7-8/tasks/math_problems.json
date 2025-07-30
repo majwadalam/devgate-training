@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "problem": "If a train travels 120 km in 2 hours, then 180 km in 3 hours, what was the average speed for the entire journey?",
+    "difficulty": "medium",
+    "type": "average_calculation",
+    "expected_steps": [
+      "Calculate total distance",
+      "Calculate total time", 
+      "Apply average speed formula"
+    ]
+  },
+  {
+    "id": 2,
+    "problem": "A rectangle has a length that is 3 times its width. If the perimeter is 48 cm, what are the dimensions?",
+    "difficulty": "medium",
+    "type": "algebra",
+    "expected_steps": [
+      "Set up variables",
+      "Write perimeter equation",
+      "Solve for width",
+      "Calculate length"
+    ]
+  },
+  {
+    "id": 3,
+    "problem": "If you invest $1000 at 5% annual interest compounded annually, how much will you have after 3 years?",
+    "difficulty": "easy",
+    "type": "compound_interest",
+    "expected_steps": [
+      "Identify compound interest formula",
+      "Substitute values",
+      "Calculate result"
+    ]
+  },
+  {
+    "id": 4,
+    "problem": "A box contains 12 red balls and 8 blue balls. If you randomly pick 3 balls without replacement, what is the probability that all 3 are red?",
+    "difficulty": "hard",
+    "type": "probability",
+    "expected_steps": [
+      "Calculate total balls",
+      "Set up combination formula",
+      "Calculate favorable outcomes",
+      "Calculate probability"
+    ]
+  }
+] 

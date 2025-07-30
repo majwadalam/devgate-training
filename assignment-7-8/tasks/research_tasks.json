@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "task": "Compare the advantages and disadvantages of solar energy vs wind energy for residential use.",
+    "difficulty": "medium",
+    "type": "comparative_analysis",
+    "aspects_to_cover": [
+      "Cost considerations",
+      "Environmental impact",
+      "Efficiency and reliability",
+      "Installation requirements",
+      "Maintenance needs"
+    ]
+  },
+  {
+    "id": 2,
+    "task": "Analyze the potential impact of artificial intelligence on the job market in the next decade.",
+    "difficulty": "hard",
+    "type": "trend_analysis",
+    "aspects_to_cover": [
+      "Jobs likely to be automated",
+      "New job categories emerging",
+      "Skills that will be in demand",
+      "Economic implications",
+      "Social considerations"
+    ]
+  },
+  {
+    "id": 3,
+    "task": "Evaluate the pros and cons of remote work vs office work for software development teams.",
+    "difficulty": "medium",
+    "type": "workplace_analysis",
+    "aspects_to_cover": [
+      "Productivity factors",
+      "Team collaboration",
+      "Work-life balance",
+      "Cost implications",
+      "Company culture impact"
+    ]
+  },
+  {
+    "id": 4,
+    "task": "What are the key factors to consider when choosing between renting and buying a home?",
+    "difficulty": "easy",
+    "type": "decision_analysis",
+    "aspects_to_cover": [
+      "Financial considerations",
+      "Lifestyle factors",
+      "Market conditions",
+      "Long-term goals",
+      "Risk factors"
+    ]
+  }
+] 

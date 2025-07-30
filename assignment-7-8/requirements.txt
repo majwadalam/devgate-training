@@ -1,0 +1,24 @@
+# Core LangChain and LangGraph
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-community==0.0.10
+langgraph==0.0.20
+
+# Environment and utilities
+python-dotenv==1.0.0
+
+# Data processing
+pandas==2.0.3
+numpy==1.24.3
+
+# JSON handling and validation
+pydantic==2.5.0
+
+# Command line interface
+click==8.1.7
+
+# Progress tracking
+tqdm==4.66.1
+
+# Type hints
+typing-extensions==4.8.0 
